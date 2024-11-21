@@ -1,0 +1,7 @@
+services:
+  readable-example:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: readable-example
+    working_dir: /app
